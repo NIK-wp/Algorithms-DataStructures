@@ -2,6 +2,6 @@ from typing import Any
 
 
 class Node:
-    def __init__(self, value: Any = None, next_node: 'Node' = None) -> None:
+    def __init__(self, value: Any = None) -> None:
         self.value = value
-        self.next = next_node
+        self.next = None
